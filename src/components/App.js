@@ -38,11 +38,11 @@ class App extends Component {
       this.setState({ contract })
       const totalSupply = await contract.methods.totalSupply().call()
       this.setState({ totalSupply })
-      // Load Colors
-      for (var i = 1; i <= totalSupply; i++) {
-        const color = await contract.methods.colors(i - 1).call()
-        this.setState({
-          colors: [...this.state.colors, color]
+      //// Load Colors
+      //for (var i = 1; i <= totalSupply; i++) {
+       // const color = await contract.methods.colors(i - 1).call()
+        //this.setState({
+         // colors: [...this.state.colors, color]
         })
       }
     } else {
