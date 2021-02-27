@@ -46,7 +46,7 @@ class App extends Component {
          // colors: [...this.state.colors, color]
         }
       }
-    } else {
+     else {
       window.alert('Smart contract not deployed to detected network.')
     }
   }
