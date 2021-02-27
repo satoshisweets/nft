@@ -44,7 +44,7 @@ class App extends Component {
        // const color = await contract.methods.colors(i - 1).call()
         //this.setState({
          // colors: [...this.state.colors, color]
-        })
+        }
       }
     } else {
       window.alert('Smart contract not deployed to detected network.')
